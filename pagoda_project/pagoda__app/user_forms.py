@@ -1,9 +1,9 @@
 from django.forms import ModelForm, TextInput
-from .models import City
+from .models import UserCity
 
 class CityForm(ModelForm):
     class Meta:
-        model = City
+        model = UserCity
         fields = ['name']
         widgets = {
             'name': TextInput(attrs={'class' : 'input', 'placeholder' : 'City Name'}),
