@@ -20,4 +20,6 @@ from django.urls import path, include
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('pagoda__app.urls')),
+    path('first_layer/',include('pagoda__app.special_urls')),
+    path('layer_TeleVision/',include('pagoda__app.special_urls')),
 ]

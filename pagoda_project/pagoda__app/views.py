@@ -54,4 +54,8 @@ def index(request):
  #returns the index.html template
 
 
+def kira(requem):
+    return render(requem,'weather/first_layer.html')
 
+def majishian(requem):
+    return render(requem,'weather/under_weather/under_void.html')
