@@ -59,3 +59,6 @@ def kira(requem):
 
 def majishian(requem):
     return render(requem,'weather/under_weather/under_void.html')
+
+def saientisuto(requ):
+    return render(requ,'weather/under_weather/error.html')
